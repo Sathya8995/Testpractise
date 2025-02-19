@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>SeleniumCucumberWebDriverManager</artifactId>
+    <artifactId>Testpractise</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -45,12 +45,12 @@
             <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.onap.policy.apex-pdp.plugins.plugins-executor/plugins-executor-javascript -->
+
         <dependency>
-            <groupId>org.onap.policy.apex-pdp.plugins.plugins-executor</groupId>
-            <artifactId>plugins-executor-javascript</artifactId>
-            <version>4.0.1</version>
-            <scope>test</scope>
+            <groupId>com.browserstack</groupId>
+            <artifactId>browserstack-java-sdk</artifactId>
+            <version>LATEST</version>
+            <scope>compile</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
