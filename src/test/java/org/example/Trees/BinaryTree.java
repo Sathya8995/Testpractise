@@ -1,5 +1,7 @@
 package org.example.Trees;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class BinaryTree {
@@ -71,10 +73,29 @@ public class BinaryTree {
         display(node.left, level + 1);
     }
 
+    public void bfTraversal(){
+        System.out.print("BFS: ");
+        //create queue
+        Queue<Node> queue2 = new ArrayDeque<>();
+        bfDisplay(root, queue2);
+        //System.out.println();
+    }
+
+    public void bfDisplay(Node node, Queue<Node> queue){
+        if(node != null){
+            System.out.print(node.value + " ");
+            if (node.left != null)
+                queue.offer(node.left);
+            if (node.right != null)
+                queue.offer(node.right);
+            bfDisplay(queue.poll(), queue);
+        }
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         BinaryTree tree = new BinaryTree();
         tree.populate(scanner);
-        tree.display();
+        tree.bfTraversal();
     }
 }
