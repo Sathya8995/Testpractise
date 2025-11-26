@@ -1,7 +1,5 @@
 package org.example;
 
-import io.cucumber.java.sl.In;
-
 import java.util.*;
 
 public class CollectionDemo {

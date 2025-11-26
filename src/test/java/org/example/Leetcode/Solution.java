@@ -111,6 +111,40 @@ public class Solution {
         return list;
     }
 
+    public boolean isSymmetric(TreeNode root){
+
+        if (root == null) {
+            return true;
+        }
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (! queue.isEmpty()){
+
+            int levelSize = queue.size();
+            TreeNode[] arr = queue.toArray(new TreeNode[levelSize]);
+            for (int i=0; i<levelSize; i++){
+                if(!Objects.equals(arr[i].val, arr[levelSize - 1 - i].val)){
+                    return false;
+                }
+            }
+            for(int i =0; i<levelSize; i++){
+                TreeNode current = queue.poll();
+
+                if (current.left != null ){
+                    queue.offer(current.left);
+                }
+                if (current.right != null ){
+                    queue.offer(current.right);
+                }
+
+            }
+        }
+
+        return true;
+    }
+
     public List<List<Integer>> zigZagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
 
@@ -313,13 +347,36 @@ public class Solution {
         return -1;
     }
 
+    public Integer kthSmallest(TreeNode root, int k) {
+        Map<Integer,Integer> map = new HashMap<>();
+        return helper(root,map,k, 1);
+    }
+
+    public Integer helper(TreeNode node,Map<Integer,Integer> map, int k, int index){
+
+        if(node == null){
+            return null;
+        }
+        if(node != null){
+            helper(node.left, map, k, index);
+            if(node.val != null){
+                map.put(index, node.val);
+                index=index+1;
+            }
+            helper(node.right, map, k,index);
+        }
+        return map.get(k);
+    }
+
+
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(3,9,20,null,null,15,7,30,50,25,40));
+        List<Integer> list = new ArrayList<>(Arrays.asList(3,1,4,null,2));
         Solution tree = new Solution();
         // Populate the tree
         tree.populate(list);
-        tree.display();
-        System.out.println("\n" + tree.levelOrder(tree.root));
+//        tree.display();
+        System.out.println();
+        System.out.println(tree.kthSmallest(tree.root,1));
 
 
     }

@@ -154,7 +154,7 @@ public class ListToBst {
     }
 
     /**
-     * Returns the height of the tree
+     * Returns the  height of the tree
      */
     public int height() {
         return heightRec(root);
