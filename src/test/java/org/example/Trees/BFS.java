@@ -93,7 +93,7 @@ public class BFS {
             bfDisplay(queue.poll(), queue);
         }
     }
-
+  
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>(Arrays.asList(3, 9, 20, null, null, 15, 7));

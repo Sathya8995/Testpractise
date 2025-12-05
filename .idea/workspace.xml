@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c3ae8b7-bd94-4406-9c94-ed3d79c403f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Leetcode/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Trees/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Trees/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Testpractice/org/example/Leetcode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/Testpractice/org/example/Leetcode/Solution.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sathya8995&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sathya8995/Testpractise.git&quot;,
+    &quot;accountId&quot;: &quot;604f67e1-b27d-4c22-a14c-a379bdb2959a&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2sUw6zTvcFTCmNPJhpPJXyybOQt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AVLTree.executor": "Run",
+    "Application.BFS.executor": "Run",
+    "Application.BankThreads.executor": "Run",
+    "Application.BankingSystem.executor": "Run",
+    "Application.BasicLinkedListOperations.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.BinarySearchTree.executor": "Run",
+    "Application.BinaryTree.executor": "Run",
+    "Application.CollectionDemo.executor": "Run",
+    "Application.ConsecutiveChars.executor": "Run",
+    "Application.CustomPriorityQueue.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.Demo1.executor": "Run",
+    "Application.FruitsinBasket.executor": "Run",
+    "Application.ListToBst.executor": "Run",
+    "Application.ListToBt.executor": "Run",
+    "Application.ListtoBst.executor": "Run",
+    "Application.LongestSubstringwithoutRepeat.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxCardPoints.executor": "Run",
+    "Application.MaxConsecutiveOnes.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.MinimumSubarraySum.executor": "Run",
+    "Application.MultiThread.executor": "Run",
+    "Application.NumberofSubstrings.executor": "Run",
+    "Application.PredicateFunctions.executor": "Run",
+    "Application.PrintOrder.executor": "Run",
+    "Application.Queue.executor": "Run",
+    "Application.QueueXample.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Application.RemoveDuplicate.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Stack.executor": "Run",
+    "Application.StackProblems.executor": "Run",
+    "Application.StreamApiDemo.executor": "Run",
+    "Application.StreamsApiDemo.executor": "Run",
+    "Application.StringStream.executor": "Run",
+    "Application.StudentGrade.executor": "Run",
+    "Application.SubstringatmostKdistinct.executor": "Run",
+    "Application.SumAvg.executor": "Run",
+    "Application.TwoThread.executor": "Run",
+    "Application.WordCounter.executor": "Run",
+    "Application.org.example.claudePracticeProblems.ImmutablePerson.Main.executor": "Run",
+    "Application.org.example.claudePracticeProblems.SingleBankAccount.Main.executor": "Run",
+    "Application.practise.executor": "Debug",
+    "Application.subarraysWithKDistinct.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.testDynamictable.test1.executor": "Run",
+    "TestNG.testfileupload.executor": "Run",
+    "TestNG.testfileupload.fileUpload.executor": "Run",
+    "TestNG.testfileupload.fileUpload2.executor": "Run",
+    "TestNG.testfileupload.fileUpload2Robot.executor": "Run",
+    "TestNG.testfileupload.fileUpload3.executor": "Run",
+    "TestNG.testfileupload.fileUpload3AutoIT.executor": "Run",
+    "TestNG.testfileupload.fileUpload_Sendkeys.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/sathy/IdeaProjects/Testpractice/src/test/java",
+    "last_opened_file_path": "C:/Users/sathy/IdeaProjects/Testpractice",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sathy\IdeaProjects\Testpractice" />
+      <recent name="C:\Users\sathy\IdeaProjects\Testpractice\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sathy\IdeaProjects\Testpractice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.claudePracticeProblems.BinarySearch.BinarySearch" />
+      <module name="Testpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.claudePracticeProblems.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsecutiveChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SlidingWindowand2Pointers.ConsecutiveChars" />
+      <module name="Testpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SlidingWindowand2Pointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberofSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SlidingWindowand2Pointers.NumberofSubstrings" />
+      <module name="Testpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SlidingWindowand2Pointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubstringatmostKdistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SlidingWindowand2Pointers.SubstringatmostKdistinct" />
+      <module name="Testpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SlidingWindowand2Pointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="subarraysWithKDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SlidingWindowand2Pointers.subarraysWithKDistinct" />
+      <module name="Testpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SlidingWindowand2Pointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.subarraysWithKDistinct" />
+        <item itemvalue="Application.NumberofSubstrings" />
+        <item itemvalue="Application.SubstringatmostKdistinct" />
+        <item itemvalue="Application.ConsecutiveChars" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c3ae8b7-bd94-4406-9c94-ed3d79c403f7" name="Changes" comment="" />
+      <created>1738523290079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738523290079</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Jenkinsfile" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/practise.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/practise.java</url>
+          <line>294</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/practise.java</url>
+          <line>330</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/MultiThread.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Trees/ListToBt.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Leetcode/Solution.java</url>
+          <line>288</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Leetcode/Solution.java</url>
+          <line>295</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Leetcode/Solution.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Leetcode/Solution.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Heap/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/SlidingWindowand2Pointers/MaxCardPoints.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/SlidingWindowand2Pointers/LongestSubstringwithoutRepeat.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/SlidingWindowand2Pointers/MaxConsecutiveOnes.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/SlidingWindowand2Pointers/NumberofSubstrings.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/claudePracticeProblems/BinarySearch/BinarySearch.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/claudePracticeProblems/BinarySearch/BinarySearch.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/claudePracticeProblems/BinarySearch/BinarySearch.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/claudePracticeProblems/BinarySearch/BinarySearch.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/claudePracticeProblems/BinarySearch/BinarySearch.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

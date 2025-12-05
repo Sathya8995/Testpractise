@@ -368,15 +368,34 @@ public class Solution {
         return map.get(k);
     }
 
+    public double findMaxAverage(int[] nums, int k) {
+        int sum = 0;
+
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+        }
+        int maxsum = sum;
+        int l=0;
+        int r = k;
+        while(r< nums.length){
+            sum = sum + nums[r] - nums[l];
+            maxsum=Math.max(maxsum,sum);
+            l++;
+            r++;
+        }
+        return (double) maxsum/k;
+    }
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(3,1,4,null,2));
+//        List<Integer> list = new ArrayList<>(Arrays.asList(3,1,4,null,2));
         Solution tree = new Solution();
-        // Populate the tree
-        tree.populate(list);
-//        tree.display();
-        System.out.println();
-        System.out.println(tree.kthSmallest(tree.root,1));
+//        // Populate the tree
+//        tree.populate(list);
+////        tree.display();
+//        System.out.println();
+//        System.out.println(tree.kthSmallest(tree.root,1));
+        int[] arr = {1,12,-5,-6,50,3};
+        System.out.println(tree.findMaxAverage(arr,4));
 
 
     }
