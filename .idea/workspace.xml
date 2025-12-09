@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3ae8b7-bd94-4406-9c94-ed3d79c403f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Leetcode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Trees/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Trees/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Testpractice/org/example/Leetcode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/Testpractice/org/example/Leetcode/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AVLTree.executor": "Run",
+    "Application.AnonymousClassExample.executor": "Run",
+    "Application.AsymmetricEncryptionExample.executor": "Run",
     "Application.BFS.executor": "Run",
     "Application.BankThreads.executor": "Run",
     "Application.BankingSystem.executor": "Run",
@@ -63,8 +63,11 @@
     "Application.CollectionDemo.executor": "Run",
     "Application.ConsecutiveChars.executor": "Run",
     "Application.CustomPriorityQueue.executor": "Run",
+    "Application.DateTime.executor": "Run",
+    "Application.Date_Time_Zone.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.Demo1.executor": "Run",
+    "Application.ECKeyPairExample.executor": "Run",
     "Application.FruitsinBasket.executor": "Run",
     "Application.ListToBst.executor": "Run",
     "Application.ListToBt.executor": "Run",
@@ -74,6 +77,7 @@
     "Application.MaxCardPoints.executor": "Run",
     "Application.MaxConsecutiveOnes.executor": "Run",
     "Application.MergeSort.executor": "Run",
+    "Application.MessageDigestExample.executor": "Run",
     "Application.MinimumSubarraySum.executor": "Run",
     "Application.MultiThread.executor": "Run",
     "Application.NumberofSubstrings.executor": "Run",
@@ -82,6 +86,7 @@
     "Application.Queue.executor": "Run",
     "Application.QueueXample.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.RSAExample.executor": "Run",
     "Application.RemoveDuplicate.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Stack.executor": "Run",
@@ -92,6 +97,7 @@
     "Application.StudentGrade.executor": "Run",
     "Application.SubstringatmostKdistinct.executor": "Run",
     "Application.SumAvg.executor": "Run",
+    "Application.SymmetricEncryptionExample.executor": "Run",
     "Application.TwoThread.executor": "Run",
     "Application.WordCounter.executor": "Run",
     "Application.org.example.claudePracticeProblems.ImmutablePerson.Main.executor": "Run",
@@ -132,13 +138,13 @@
       <recent name="C:\Users\sathy\IdeaProjects\Testpractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.claudePracticeProblems.BinarySearch.BinarySearch" />
+  <component name="RunManager" selected="Application.Date_Time_Zone">
+    <configuration name="AsymmetricEncryptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JCA.AsymmetricEncryptionExample" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.claudePracticeProblems.BinarySearch.*" />
+          <option name="PATTERN" value="org.example.JCA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsecutiveChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SlidingWindowand2Pointers.ConsecutiveChars" />
+    <configuration name="Date_Time_Zone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JCA.Date_Time_Zone" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SlidingWindowand2Pointers.*" />
+          <option name="PATTERN" value="org.example.JCA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberofSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SlidingWindowand2Pointers.NumberofSubstrings" />
+    <configuration name="ECKeyPairExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JCA.ECKeyPairExample" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SlidingWindowand2Pointers.*" />
+          <option name="PATTERN" value="org.example.JCA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringatmostKdistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SlidingWindowand2Pointers.SubstringatmostKdistinct" />
+    <configuration name="MessageDigestExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JCA.MessageDigestExample" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SlidingWindowand2Pointers.*" />
+          <option name="PATTERN" value="org.example.JCA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subarraysWithKDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SlidingWindowand2Pointers.subarraysWithKDistinct" />
+    <configuration name="SymmetricEncryptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JCA.SymmetricEncryptionExample" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SlidingWindowand2Pointers.*" />
+          <option name="PATTERN" value="org.example.JCA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.subarraysWithKDistinct" />
-        <item itemvalue="Application.NumberofSubstrings" />
-        <item itemvalue="Application.SubstringatmostKdistinct" />
-        <item itemvalue="Application.ConsecutiveChars" />
+        <item itemvalue="Application.Date_Time_Zone" />
+        <item itemvalue="Application.MessageDigestExample" />
+        <item itemvalue="Application.ECKeyPairExample" />
+        <item itemvalue="Application.AsymmetricEncryptionExample" />
+        <item itemvalue="Application.SymmetricEncryptionExample" />
       </list>
     </recent_temporary>
   </component>
