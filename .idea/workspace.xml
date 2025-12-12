@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3ae8b7-bd94-4406-9c94-ed3d79c403f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
     </list>
@@ -83,6 +84,7 @@
     "Application.NumberofSubstrings.executor": "Run",
     "Application.PredicateFunctions.executor": "Run",
     "Application.PrintOrder.executor": "Run",
+    "Application.ProducerConsumerExample.executor": "Run",
     "Application.Queue.executor": "Run",
     "Application.QueueXample.executor": "Run",
     "Application.QuickSort.executor": "Run",
@@ -98,6 +100,7 @@
     "Application.SubstringatmostKdistinct.executor": "Run",
     "Application.SumAvg.executor": "Run",
     "Application.SymmetricEncryptionExample.executor": "Run",
+    "Application.ThreadPool.executor": "Run",
     "Application.TwoThread.executor": "Run",
     "Application.WordCounter.executor": "Run",
     "Application.org.example.claudePracticeProblems.ImmutablePerson.Main.executor": "Run",
@@ -138,13 +141,13 @@
       <recent name="C:\Users\sathy\IdeaProjects\Testpractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Date_Time_Zone">
-    <configuration name="AsymmetricEncryptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JCA.AsymmetricEncryptionExample" />
+  <component name="RunManager" selected="Application.ProducerConsumerExample">
+    <configuration name="BankThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.claudePracticeProblems.BankThreads.BankThreads" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.JCA.*" />
+          <option name="PATTERN" value="org.example.claudePracticeProblems.BankThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ECKeyPairExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JCA.ECKeyPairExample" />
+    <configuration name="ProducerConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ThreadPool.ProducerConsumerExample" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.JCA.*" />
+          <option name="PATTERN" value="org.example.ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageDigestExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JCA.MessageDigestExample" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Leetcode.Solution" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.JCA.*" />
+          <option name="PATTERN" value="org.example.Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricEncryptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JCA.SymmetricEncryptionExample" />
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ThreadPool.ThreadPool" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.JCA.*" />
+          <option name="PATTERN" value="org.example.ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerExample" />
+        <item itemvalue="Application.ThreadPool" />
+        <item itemvalue="Application.BankThreads" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Date_Time_Zone" />
-        <item itemvalue="Application.MessageDigestExample" />
-        <item itemvalue="Application.ECKeyPairExample" />
-        <item itemvalue="Application.AsymmetricEncryptionExample" />
-        <item itemvalue="Application.SymmetricEncryptionExample" />
       </list>
     </recent_temporary>
   </component>
