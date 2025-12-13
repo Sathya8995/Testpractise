@@ -2,7 +2,7 @@ package org.example.ThreadPool;
 
 import java.util.concurrent.*;
 
-public class ProducerConsumerExample {
+public class ProducerConsumerExample<T extends Comparable<T>> {
     private static final int BUFFER_SIZE = 10;
     private static BlockingQueue<Integer> buffer = new ArrayBlockingQueue<>(BUFFER_SIZE);
 

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3ae8b7-bd94-4406-9c94-ed3d79c403f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ThreadPool/ProducerConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ThreadPool/ProducerConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Testpractice/org/example/ThreadPool/ProducerConsumerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/Testpractice/org/example/ThreadPool/ProducerConsumerExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +101,10 @@
     "Application.SubstringatmostKdistinct.executor": "Run",
     "Application.SumAvg.executor": "Run",
     "Application.SymmetricEncryptionExample.executor": "Run",
+    "Application.ThreadLocalExample.executor": "Run",
     "Application.ThreadPool.executor": "Run",
     "Application.TwoThread.executor": "Run",
+    "Application.VirtualThreadsExample.executor": "Run",
     "Application.WordCounter.executor": "Run",
     "Application.org.example.claudePracticeProblems.ImmutablePerson.Main.executor": "Run",
     "Application.org.example.claudePracticeProblems.SingleBankAccount.Main.executor": "Run",
@@ -141,26 +144,13 @@
       <recent name="C:\Users\sathy\IdeaProjects\Testpractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumerExample">
-    <configuration name="BankThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.claudePracticeProblems.BankThreads.BankThreads" />
+  <component name="RunManager" selected="Application.VirtualThreadsExample">
+    <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MultiThread" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.claudePracticeProblems.BankThreads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Date_Time_Zone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JCA.Date_Time_Zone" />
-      <module name="Testpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.JCA.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Leetcode.Solution" />
+    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ThreadPool.ThreadLocalExample" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Leetcode.*" />
+          <option name="PATTERN" value="org.example.ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,6 +186,19 @@
     </configuration>
     <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ThreadPool.ThreadPool" />
+      <module name="Testpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ThreadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VirtualThreadsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ThreadPool.VirtualThreadsExample" />
       <module name="Testpractice" />
       <extension name="coverage">
         <pattern>
@@ -218,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VirtualThreadsExample" />
+        <item itemvalue="Application.ThreadLocalExample" />
+        <item itemvalue="Application.MultiThread" />
         <item itemvalue="Application.ProducerConsumerExample" />
         <item itemvalue="Application.ThreadPool" />
-        <item itemvalue="Application.BankThreads" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Date_Time_Zone" />
       </list>
     </recent_temporary>
   </component>
