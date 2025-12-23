@@ -94,13 +94,13 @@ public class ThreadPool {
 
         // Schedule a task to execute every 1 second, starting immediately
         scheduledThreadPool.scheduleWithFixedDelay(() ->
-                {System.out.println("Scheduled FixedDelay Task");
+                {System.out.println("Scheduled FixedDelay Task " + Thread.currentThread().getName());
                     count2.getAndIncrement();},
                 0, 1, TimeUnit.SECONDS);
 
         // Schedule a task to execute every 1 second, starting immediately
         scheduledThreadPool.scheduleAtFixedRate(() ->
-                {System.out.println("Scheduled FixedRate Task");
+                {System.out.println("Scheduled FixedRate Task " + Thread.currentThread().getName());
                     count1.getAndIncrement();},
                 0, 1, TimeUnit.SECONDS);
 
