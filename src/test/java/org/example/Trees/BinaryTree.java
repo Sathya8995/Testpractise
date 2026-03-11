@@ -96,6 +96,7 @@ public class BinaryTree {
         Scanner scanner = new Scanner(System.in);
         BinaryTree tree = new BinaryTree();
         tree.populate(scanner);
+        scanner.close();
         tree.bfTraversal();
     }
 }

@@ -1,5 +1,7 @@
 package org.example.SolidPrinciples;
 
+import java.util.Scanner;
+
 // Notification.java
 interface Notification {
     void send();
@@ -37,13 +39,42 @@ class CallNotification implements Notification
 
 
 // NotificationService.java
-class NotificationServiceAfterOCP {
-    public void sendNotification(Notification notification) {
+class NotificationServiceAfterOCP{
+    static Notification notification;
+    public static void send(String type){
+        if (type == null) {
+            System.out.println("Unknown notification type: null");
+            return;
+        }
 
+        switch (type) {
+            case "email":
+                notification = new EmailNotification();
+                break;
+            case "sms":
+                notification = new SMSNotification();
+                break;
+            case "otp":
+                notification = new OTPNotification();
+                break;
+            case "callotp":
+                notification = new CallNotification();
+                break;
+            default:
+                System.out.println("Unknown notification type: " + type);
+                return;
+        }
         notification.send();
     }
 }
 
 public class NotificationAfterOCP {
+    public static void main(String[] args) {
+        System.out.println("Enter notification method: email, sms, otp, call");
+        Scanner scanner = new Scanner(System.in);
+        String type = scanner.next();
+        NotificationServiceAfterOCP.send(type.toLowerCase());
+
+    }
 
 }

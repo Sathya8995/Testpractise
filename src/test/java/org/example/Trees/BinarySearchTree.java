@@ -41,12 +41,12 @@ public class BinarySearchTree {
                 if(node.left == null)
                     node.left = new Node(value);
                 else
-                    goLeft(scanner, node.left, value);
+                    goDown(node.left, value);
             } else{
                 if(node.right == null)
                     node.right = new Node(value);
                 else
-                    goRight(scanner, node.right, value);
+                    goDown(node.right, value);
             }
             System.out.println("Enter true or false, Do you want to add more elements: ");
             while (!scanner.hasNextBoolean()) {
@@ -57,35 +57,19 @@ public class BinarySearchTree {
         }
     }
 
-    public void goLeft(Scanner scanner, Node node, int value){
+    public void goDown(Node node, int value){
         if(value< node.value){
             if(node.left == null){
                 node.left = new Node(value);
             }
             else
-                goLeft(scanner, node.left, value);
+                goDown(node.left, value);
         }
         else {
             if(node.right == null)
                 node.right = new Node(value);
             else
-                goRight(scanner, node.right, value);
-        }
-    }
-
-    public void goRight(Scanner scanner, Node node, int value){
-        if(value< node.value){
-            if(node.left == null){
-                node.left = new Node(value);
-            }
-            else
-                goLeft(scanner, node.left, value);
-        }
-        else {
-            if(node.right == null)
-                node.right = new Node(value);
-            else
-                goRight(scanner, node.right, value);
+                goDown(node.right, value);
         }
     }
 
@@ -111,10 +95,59 @@ public class BinarySearchTree {
         display(node.left, level + 1);
     }
 
+    public void search(Scanner scanner){
+        System.out.println("Do you want to search for an element in the tree? (true/false)");
+        while (!scanner.hasNextBoolean()) {
+            System.out.println("Invalid input! Please type true or false.");
+            scanner.next(); // Skip the invalid token
+        }
+        boolean flag = scanner.nextBoolean();
+        while(flag){
+        System.out.println("Enter the value to be searched: ");
+        int value = scanner.nextInt();
+        Node current = root;
+        if(value == current.value){
+            System.out.println("Element "+ value +" found in the tree at node: " + current);
+        }
+        if(value < current.value){
+            searchDown(current.left, value);
+        }
+        if (value > current.value){
+            searchDown(current.right, value);
+        }
+        System.out.println("Do you want to search for an element in the tree? (true/false)");
+        while (!scanner.hasNextBoolean()) {
+            System.out.println("Invalid input! Please type true or false.");
+            scanner.next(); // Skip the invalid token
+        }
+            flag = scanner.nextBoolean();
+        }
+
+    }
+
+    public void searchDown(Node node, int value){
+        if(node == null){
+            System.out.println("Element "+ value +" not found in the tree.");
+            return;
+        }
+        if(node.value == value){
+            System.out.println("Element "+ value +" found in the tree at node: " + node);
+            return;
+        }
+        if (value < node.value){
+            searchDown(node.left, value);
+        }
+        if (value > node.value){
+            searchDown(node.right, value);
+        }
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         BinarySearchTree tree = new BinarySearchTree();
         tree.populate(scanner);
         tree.display();
+        tree.search(scanner);
+        scanner.close();
     }
 }

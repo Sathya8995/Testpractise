@@ -230,30 +230,20 @@ public class practise {
         return arr;
     }
 
-    public boolean isPalindrome(int x) {
+    public static boolean isPalindrome(int x) {
         if(x<0){
             return false;
         }
-        long y = x;
-        long z = x;
-        long k=0;
-        int digit=0;
+        int z = x;
+        int k=0;
         while(z/10>0){
-            digit++;
+            k = (k*10) + (z%10);
             z/=10;
         }
-        while(digit+1>0){
-            k+=Math.pow(10,digit)*(y%10);
-            y/=10;
-            digit--;
-        }
 
-        if(k==x){
-            return true;
-        }
-        else{
-            return false;
-        }
+        k = (k*10) + z;
+
+        return k == x;
     }
 
     public static int removeDuplicates(int[] arr) {
@@ -394,6 +384,101 @@ public class practise {
         return flag;
     }
 
+    public double findMaxAverage(int[] nums, int k) {
+        double sum = 0d;
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+        }
+        double maxAvg = sum / k;
+        int i = 1, j = k;
+        while (j < nums.length) {
+            sum = sum - nums[i - 1] + nums[j];
+            maxAvg = Math.max(maxAvg, sum / k);
+            i++;
+            j++;
+        }
+        return maxAvg;
+    }
+
+    public static int maxVowels(String s, int k) {
+        int count =0;
+        int maxcount = 0;
+        for(int i =0; i<k; i++){
+            char ch = s.charAt(i);
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+                count++;
+            }
+        }
+        maxcount = count;
+         int i =0, j = k;
+        while (j<s.length()){
+            if(s.charAt(i)=='a'||s.charAt(i)=='e'||s.charAt(i)=='i'||s.charAt(i)=='o'||s.charAt(i)=='u'){
+                count--;
+            }
+            if(s.charAt(j)=='a'||s.charAt(j)=='e'||s.charAt(j)=='i'||s.charAt(j)=='o'||s.charAt(j)=='u'){
+                count++;
+            }
+            maxcount = Math.max(maxcount,count);
+            i++;
+            j++;
+        }
+        return maxcount;
+
+    }
+
+    public static int lengthOfLongestSubstring(String s) {
+        int count =0;
+        HashMap<Character,Integer> freq = new HashMap<Character,Integer>();
+        int i =0 , j =0;
+        while(j<s.length()){
+            if(freq.containsKey(s.charAt(j))){
+                i = Math.max(freq.get(s.charAt(j))+1,i);
+                freq.put(s.charAt(j), j);
+            }
+            else{
+                freq.put(s.charAt(j), j);
+            }
+            count = Math.max(count,(j-i+1));
+            j++;
+        }
+        return count;
+    }
+
+    public static int lengthOfLongestSubstringWithAtMostK(String s, int k) {
+        int count =0;
+        HashMap<Character,Integer> freq = new HashMap<Character,Integer>();
+        int i =0 , j =0;
+        while(j<s.length()){
+            if(freq.size() <= k){
+                freq.put(s.charAt(j),j);
+            }
+            else{
+                char ch = s.charAt(i);
+                i = freq.get(ch) +1;
+                freq.remove(ch);
+            }
+            count = Math.max(count,(j-i+1));
+            j++;
+        }
+        return count;
+    }
+
+    public static int totalFruit(int[] fruits) {
+        int count =0;
+        HashMap<Integer,Integer> freq = new HashMap<Integer,Integer>();
+        int i =0 , j =0;
+        while(j<fruits.length){
+            freq.put(fruits[j],j);
+            if(freq.size() > 2){
+                int a = fruits[i];
+                i = freq.get(a) +1;
+                freq.remove(a);}
+            count = Math.max(count,(j-i+1));
+            j++;
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
 //        String haystack = "mississippi";
 //        String needle = "issip";
@@ -401,8 +486,8 @@ public class practise {
         //String[] inp = {"flow","flower","flight"};
 //        int sum=Arrays.stream(arr).sum();
 //        System.out.println(sum);
-          String str1 = "silent";
-          String str2 = "kisten";
+//          String str1 = "silent";
+//          String str2 = "kisten";
 //        boolean bool = true;
         //System.out.println("Input array :"+Arrays.toString(arr));
 //        System.out.println("Input String :");
@@ -479,7 +564,9 @@ public class practise {
 //        long ans = getLucky(str,2);
 //        System.out.println(ans);
 
-        boolean flag= anagram2(str1,str2);
-        System.out.println(flag);
+//        boolean flag= anagram2(str1,str2);
+//        System.out.println(flag);
+        int[] fruits = {1,0,1,4,1,4,1,2,3};
+        System.out.println(totalFruit(fruits));
     }
 }
